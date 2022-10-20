@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ml-mathematics"
+version = "0.1.0"
+description = ""
+authors = ["kit <kit@humn.ai>"]
+readme = "README.md"
+packages = [{include = "ml_mathematics"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.23.3"
+jupyterlab = "^3.4.8"
+black = "^22.10.0"
+nb-black = "^1.0.7"
+matplotlib = "^3.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
